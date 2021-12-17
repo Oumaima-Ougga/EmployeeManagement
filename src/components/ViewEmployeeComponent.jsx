@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import EmployeeService from "../services/EmployeeService";
 
 const ViewEmployeeComponent = () => {
-
     const ida = useParams();
     const [employee,setEmployee] = useState({firstName : "", lastName : "" , emailId : ""});
     
