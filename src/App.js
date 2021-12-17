@@ -6,7 +6,6 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import CreateEmployeeComponent from './components/CreateEmployeeComponent';
 import ViewEmployeeComponent from './components/ViewEmployeeComponent';
 function App() {
-
   return (
     <div>
       <Router>
